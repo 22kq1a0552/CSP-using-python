@@ -1,1 +1,33 @@
+Q1)Sum of Digits
+n=int(input("enter any number:"))
+while n>0:
+    n=n*(n+1)//2
+    break
+print(n)
+o/p:
+enter any number:25
+325
+Q2)Sum of Array Elements
+arr = [1, 2, 3, 4, 5]
+print("Sum of array elements:", sum(arr))
+o/p:
+Sum of array elements:15
+Q3)Merge Array Elements
+arr1 = [1, 2, 3]
+arr2 = [4, 5, 6]
+merged = arr1 + arr2
+print("Merged array:", merged)
+o/p:
+Merged array: [1, 2, 3, 4, 5, 6]
+Q4)Factorial of a Number
+num = int(input("Enter a number: "))
+fact = 1
+for i in range(1, num + 1):
+    fact *= i
+print("Factorial:", fact)
+o/p:
+Enter a number: 5
+Factorial:120
+Q5)
+
 
